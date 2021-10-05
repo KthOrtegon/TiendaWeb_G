@@ -1,4 +1,4 @@
-package TiendaWeb55_GroupG.TiendaWeb;
+package com.TiendaWeb_G;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
@@ -7,7 +7,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(TiendaWebApplication.class);
+		return application.sources(TiendaWebGApplication.class);
 	}
 
 }
