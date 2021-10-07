@@ -1,0 +1,193 @@
+@charset "ISO-8859-1";
+body {
+    background-color: white;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+h3 {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+label {
+    display: inline-block;
+    height: 25px;
+    width: 90px;
+    margin-left: 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+input {
+    display: inline-block;
+    width: 170px;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Reportes {
+    text-align: center;
+    align-items: center;
+    display: flex;  
+    justify-content: center;
+  }
+
+
+.botones_horizontal{
+    align-items: center;
+    display: flex;  
+    justify-content: center; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+.botones_horizontal button, input[type=button]{
+    height: 40px;
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+.botones_vertical{
+    align-items: center;
+    display: flex;  
+    justify-content: center; 
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.botones_vertical button, input[type=button]{
+    height: 40px;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+.hipervinculos{
+    align-items: center;
+    display: flex;  
+    justify-content: center; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.Grilla{
+    margin-left: 100px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.encabezado{
+    background-color: gray;
+    height: 40px;
+}
+
+#Titulo{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 2%;
+    padding-top: 8px;
+    height: 30px;
+}
+
+.menu {
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    border: 1px solid gray;
+    display: flex;  
+    margin-bottom: 40 px;
+}
+
+
+.nav ul{
+    margin:0;padding:0;box-sizing:border-box;font-size:0;
+}
+
+nav a{
+    margin:0;
+    text-decoration:none;
+    color:inherit;
+    } 
+    nav li{
+    display:inline-block;
+    padding:5px 10px;
+    text-align:center;
+    color:black;
+    }
+    nav li:hover{
+    background-color:grey;
+    color:white;
+    }
+
+.Tablas{
+
+    display: flex;  
+    justify-content: center; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+}
+
+table {
+    padding: 10px 10px;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+
+}
+
+
+tr:nth-child(even){
+    border: solid 1px black;
+    padding: 0;
+    text-align: left;
+    background-color: white;
+    color: black;
+
+}
+
+thead{
+    border: solid 1px gray;
+    padding: 0;
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
